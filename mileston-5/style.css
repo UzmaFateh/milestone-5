@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+ 
+    padding-left: 2%;
+    
+   
+}
+
+
+
+.column{
+    width: 98%;
+    background-color: aquamarine;
+    padding: 2%;
+    box-sizing: border-box;
+}
+input, textarea{
+    width: 98%;
+    height: 30px;
+    border: 2px solid gray;
+    border-radius: 5px;
+   
+}
+
+.generate{
+    margin: 2%;
+    width: 30%;
+    height: 36px;
+    border-radius: 8px;
+    background-color: rgb(36, 222, 36);
+    color: white;
+    border: solid transparent;
+    margin-left: 34%;
+  
+}
+
+.add-btn{
+    width: 30%;
+    height: 36px;
+    border-radius: 8px;
+    background-color:  rgb(36, 222, 36);
+    border: solid transparent;
+    color: white;
+}
+/* 
+#cv-form{
+    display: none;
+} */
+
+#cv-templete{
+    display: none;
+    border: 1px solid gray;
+}
+/* templete */
+
+.cv-container{
+    
+    display: flex;
+    
+    
+}
+.flex-templete{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.my-img{
+    width: 70%;
+    border-radius: 50% ;
+    margin-left: 15%;
+    margin-top: 1px;
+}
+
+.column1{
+    width: 40%;
+   box-sizing: border-box;
+    padding: 5%;
+    
+    
+   
+    background-color: rgb(0, 179, 255);
+}
+
+.column2{
+   
+  
+    width: 60%;
+    overflow: hidden;
+}
+
+.text-center{
+    text-align: center;
+    font-weight: 980;
+}
+
+.card{
+  
+    padding: 1%;
+    box-sizing: border-box;
+    font-size: 90%;
+    
+   
+    
+ 
+}
+
+.card-header{
+   height: 10%;
+   padding: 5px;
+   padding-left: 20px;
+    background-color: rgb(0, 179, 255);
+   
+}
+
+.card-body{
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.templet-btn{
+    margin-left: 30%;
+    width: 40%;
+    height: 40px;
+    margin-top: 2%;
+    border-radius: 5px;
+    background-color: rgb(0, 179, 255);
+}
+
+  /* Media queries*/
+
+/* small screens (less than 768px) */
+@media (max-width: 768px) {
+    .flex-templete{
+      flex-direction: column;
+      padding-right: 0%;
+    }
+    .column1{
+      width: 100%;
+    }
+    .column2 {
+      width: 100%;
+      
+    }
+  }
+
+    /* medium screens (between 768px and 1024px) */
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .flex-templete{
+          flex-direction: row;
+        }
+        .column1{
+          width: 50%;
+        }
+        .column2{
+          width: 50%;
+        }
+      }
